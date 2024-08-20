@@ -16,6 +16,7 @@
     "@mui/icons-material": "^5.16.7",
     "@mui/material": "^5.16.7",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.3.28",
@@ -24,7 +25,8 @@
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18",
     "styled-components": "^6.1.12",
-    "swiper": "^11.1.9"
+    "swiper": "^11.1.9",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "eslint": "^8",

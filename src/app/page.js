@@ -1,3 +1,4 @@
+import Details from "./components/Details";
 import Expertise from "./components/Expertise";
 import Gallery from "./components/Gallery";
 import Service from "./components/Service";
@@ -21,6 +22,7 @@ export default function Home() {
 </div>
 <Gallery/>
 <Expertise/>
+<Details/>
     </main>
   );
 }
