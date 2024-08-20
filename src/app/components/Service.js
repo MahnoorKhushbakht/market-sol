@@ -56,8 +56,8 @@ export default function Service() {
     <ul className='grid grid-cols-1 bg-fixed md:grid-cols-6 gap-4 p-8 '>
       {service.map((serviceItem, index) => (
         <li key={index}>
-          <Paper  data-wow-delay="0.5s"
-            className='wow animate__animated animate__fadeInUp flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-black text-gray-200' 
+          <Paper 
+            className='flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-black text-gray-200' 
             elevation={3}
           >
             <div className='mb-3'>

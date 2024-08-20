@@ -1,22 +1,14 @@
-'use client'
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import 'animate.css/animate.min.css';
-import { useEffect } from 'react';
-import WOW from 'wow.js';
 
-
-// export const metadata = {
-//   title: "B Solutions",
-//   description: "Discover and inspire.",
-// };
+export const metadata = {
+  title: "B Solutions",
+  description: "Discover and inspire.",
+};
 
 export default function RootLayout({ children }) {
-  useEffect(() => {
-    new WOW().init();
-  }, []);
   // const setInitialTheme = process.env.noflash;
   return (
     <html lang="en">
