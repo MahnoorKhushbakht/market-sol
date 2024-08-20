@@ -5,7 +5,7 @@ import Slider from "./components/Slider";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center h-full w-full bg-white">
+    <main className="flex flex-col justify-center h-auto w-full bg-white">
      <Slider/>
      <Service/>
      <div className="flex flex-row justify-between items-center p-8">

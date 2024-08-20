@@ -27,8 +27,8 @@ export default function Gallery() {
         },
     ]
     return (
-        <div className="min-w-full min-h-full bg-slate-600 grid md:grid-rows-1 sm:grid-rows-2 md:grid-cols-2 sm:grid-cols-1 p-20 justify-center">
-            <div className="relative justify-center sm:pb-80 md:pb-0"> 
+        <div className="w-full h-auto  bg-slate-600 grid md:grid-rows-1 sm:grid-rows-2 md:grid-cols-2 sm:grid-cols-1 p-20 justify-center">
+            <div className="relative  justify-center sm:pb-80 md:pb-0"> 
                 <Image
                     src="/images/technoloy-gear.png"
                     alt="office"
@@ -41,8 +41,8 @@ export default function Gallery() {
                 />
             </div>
 
-            <div className="grid grid-cols-1 mt-80 md:mt-0">
-                <h1 className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-2xl">
+            <div className="grid grid-cols-1 mt-96 md:mt-0 w-96 h-auto">
+                <h1 className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-2xl">
                     Professional IT Service
                 </h1>
                 <p className="text-lg">
@@ -52,15 +52,15 @@ export default function Gallery() {
 
               
                 {service_qualities.map((service_qualities, index) => (
-      <div key={index} className="flex md:flex-row flex-col items-center md:items-start w-80 gap-2">
+      <div key={index} className="flex md:flex-row flex-col items-center md:items-start mt-0 md:mt-5 w-full gap-2">
     <div className="flex justify-center md:justify-start">
     {service_qualities.service_icon}
     </div>
     <div className="flex flex-col items-center md:items-start text-center md:text-left">
-        <h1 className=" font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-2xl">
+        <h1 className="sm:text-xl md:text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-2xl">
         {service_qualities.service_heading}
         </h1>
-        <p className=" sm:text-center md:text-left">
+        <p className="sm:text-lg md:text-base sm:text-center md:text-left">
         {service_qualities.service_paragraph}
         </p>
     </div>
@@ -69,7 +69,7 @@ export default function Gallery() {
 
  
                ))}
-    <div className='flex justify-center mt-5'>
+    <div className='flex justify-center md:mt-5 mt-10 mb-0 md:mb-10'>
                <div className="w-64  bg-black transition transform hover:-translate-y-1 p-3 text-white cursor-pointer">
     Learn more about services <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />

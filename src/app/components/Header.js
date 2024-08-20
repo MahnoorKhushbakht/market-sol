@@ -6,7 +6,7 @@ import '@/app/css/Navbar.css';
 
 function Header() {
   return (
-    <Navbar expand="lg" sticky="top" className="header">
+    <Navbar expand="lg" fixed="static" className="header">
       <Container className='mb-10 sm:mb-0 mt-10 sm:mt-0 sm:ml-10 ml-0'>
         <div>
         <Navbar.Brand className='text-lg md:text-4xl ' href="#home">NESKO MEDIA</Navbar.Brand>

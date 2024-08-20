@@ -53,7 +53,7 @@ export default function Service() {
   ];
 
   return (
-    <ul className='grid grid-cols-1 md:grid-cols-6 gap-4 p-8 '>
+    <ul className='grid grid-cols-1 bg-fixed md:grid-cols-6 gap-4 p-8 '>
       {service.map((serviceItem, index) => (
         <li key={index}>
           <Paper 
