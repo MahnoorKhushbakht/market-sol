@@ -38,8 +38,8 @@ export default function Slider() {
           <SwiperSlide>
             <div className="md:h-full sm:min-h-full flex justify-center content-center md:p-64 p-32 w-full bg-cover bg-[url('/images/tech.jpg')] bg-no-repeat" >
               <div className='flex flex-col justify-center items-center md:p-64 p-0 '>
-              <h1 className="antialiased md:subpixel-antialiased md:text-5xl text-md text-center font-bold leading-normal text-white">For Your Business Custom IT Solutions</h1>
-              <p className="antialiased md:subpixel-antialiased md:text-lg text-md text-center text-white mt-4">We are at your service with all your IT solutions.</p>
+              <h1 className="antialiased md:subpixel-antialiased md:text-5xl text-2xl w-full text-center font-bold leading-normal text-white">For Your Business Custom IT Solutions</h1>
+              <p className="antialiased md:subpixel-antialiased md:text-xl text-lg w-full text-center text-white mt-4">We are at your service with all your IT solutions.</p>
               <div class="border-4 border-transparent transition transform hover:-translate-y-1 bg-black p-3 mt-2 text-white">Learn more</div>
               </div>
             </div>
@@ -47,8 +47,8 @@ export default function Slider() {
           <SwiperSlide>
           <div className="md:h-full sm:min-h-full bg-cover flex justify-center content-center md:p-64 p-32 w-full bg-[url('/images/network_nodes.jpg')] bg-no-repeat">
           <div className='flex flex-col justify-center items-center md:p-64 p-0 '>
-              <h1  className="antialiased md:subpixel-antialiased md:text-5xl text-lg text-center font-bold leading-normal text-white">We add value to your Business</h1>
-              <p className="antialiased md:subpixel-antialiased md:text-lg text-md text-center text-white mt-4">We meet all the IT infrastucture needs of your Business.</p>
+              <h1  className="antialiased md:subpixel-antialiased md:text-5xl text-2xl w-full text-center font-bold leading-normal text-white">We add value to your Business</h1>
+              <p className="antialiased md:subpixel-antialiased md:text-xl text-lg w-full text-center text-white mt-4">We meet all the IT infrastucture needs of your Business.</p>
               <div className="border-4 border-transparent transition transform hover:-translate-y-1 bg-black p-3 mt-2 text-white">Learn more</div>
             </div>
             </div>

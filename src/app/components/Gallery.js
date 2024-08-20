@@ -41,7 +41,7 @@ export default function Gallery() {
                 />
             </div>
 
-            <div className="grid grid-cols-1 mt-96 md:mt-0 w-96 h-auto">
+            <div className="grid grid-cols-1 mt-96 md:mt-0 md:ml-0 ml-5 md:mr-0 mr-5 h-auto">
                 <h1 className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-2xl">
                     Professional IT Service
                 </h1>
