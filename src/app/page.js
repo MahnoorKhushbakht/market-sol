@@ -3,14 +3,15 @@ import Expertise from "./components/Expertise";
 import Gallery from "./components/Gallery";
 import Service from "./components/Service";
 import Slider from "./components/Slider";
+import Records from "./components/Records";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center h-auto w-full bg-white">
+    <main className="flex flex-col justify-center h-auto w-full bg-slate-700">
      <Slider/>
      <Service/>
      <div className="flex flex-row justify-between items-center p-8">
-  <h1 className="text-2xl font-bold text-red-900">
+  <h1 className="text-2xl font-bold text-slate-200">
     We provide Best IT Solutions for Corporate and Personal persons.
   </h1>
   <div className="border-1 border-black transition transform hover:-translate-y-1 bg-transparent p-3 text-black cursor-pointer">
@@ -23,6 +24,7 @@ export default function Home() {
 <Gallery/>
 <Expertise/>
 <Details/>
+<Records/>
     </main>
   );
 }

@@ -2,6 +2,8 @@ import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import dynamic from 'next/dynamic';
+const WowWrapper = dynamic(() => import('./components/WowWrapper'), { ssr: false });
 
 export const metadata = {
   title: "B Solutions",
@@ -17,15 +19,17 @@ export default function RootLayout({ children }) {
             <script type="text/javascript" dangerouslySetInnerHTML={{ __html: process.env.noflash}} />
       </head> */}
       <body  >
+      <WowWrapper>
         <header>
           <Header/>
-        </header>
+        </header> 
         <main style={{ flex: '1 0 auto',backgroundColor: '#111827' }}>
           {children}
-        </main>
+        </main> 
         <footer style={{ margintop: 'auto' }}>
          <Footer/>
         </footer>
+        </WowWrapper>
       </body>
     </html>
   );
