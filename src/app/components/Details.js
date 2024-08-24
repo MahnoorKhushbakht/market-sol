@@ -1,5 +1,6 @@
 'use client'
 import Container from 'react-bootstrap/Container';
+import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -9,6 +10,7 @@ import ScreenSearchDesktopIcon from '@mui/icons-material/ScreenSearchDesktop';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import ReactCardFlip from 'react-card-flip';
 
 const cardData = [
   {
@@ -44,6 +46,13 @@ const cardData = [
 ];
 
 function Details() {
+  const [flippedState, setFlippedState] = useState(cardData.map(() => false));
+
+  const handleFlip = (idx) => {
+    const newFlippedState = flippedState.map((isFlipped, i) => (i === idx ? !isFlipped : isFlipped));
+    setFlippedState(newFlippedState);
+  };
+
   return (
     <Box width='100%' minHeight='100%' mt={3} mb={3} display="flex" flexDirection="column" justifyContent="center" alignItems="center" color="white">
       <Typography sx={{ fontSize: { xs: '20px', md: '25px' }}} color='black' variant="h5" fontWeight='bold' mb={2} fontFamily="'Rubik', sans-serif">
@@ -64,28 +73,58 @@ function Details() {
         <Row xs={1} md={3} className="g-4">
           {cardData.map((card, idx) => (
             <Col key={idx} className="d-flex align-items-stretch">
-              <Card
-                style={{
-                  padding: '6px',
-                  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
-                  color: 'white',
-                  backgroundColor: '#000000',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  textAlign: 'center',
-                  width: '100%',  
-                  height: '100%', 
-                  minHeight: '250px', 
-                }}
-              >
-                {card.icon}
-                <Card.Body>
-                  <Card.Title>{card.title}</Card.Title>
-                  <Card.Text>{card.text}</Card.Text>
-                </Card.Body>
-              </Card>
+              <ReactCardFlip flipSpeedFrontToBack='2' flipSpeedBackToFront='2' key={idx} isFlipped={flippedState[idx]} flipDirection="horizontal">
+                <Card
+                  style={{
+                    padding: '6px',
+                    boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+                    color: 'white',
+                    backgroundColor: '#000000',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    textAlign: 'center',
+                    width: '100%',  
+                    height: '100%', 
+                    minHeight: '250px', 
+                  }}
+                  onMouseEnter={() => handleFlip(idx)}
+                  onMouseLeave={() => handleFlip(idx)}
+                >
+                  {card.icon}
+                  <Card.Body>
+                    <Card.Title>{card.title}</Card.Title>
+                    <Card.Text>{card.text}</Card.Text>
+                  </Card.Body>
+                </Card>
+                <Card
+  style={{
+    position: 'relative',
+    padding: '6px',
+    boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+    color: 'white',
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), url(/images/customer_service.jpg)`, 
+    backgroundSize: 'cover', 
+    backgroundPosition: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    width: '100%',  
+    height: '100%', 
+    minHeight: '250px',
+  }}
+>
+
+
+                  <Card.Body>
+                    <Card.Title>{card.title}</Card.Title>
+                    <Card.Text>{card.text}</Card.Text>
+                  </Card.Body>
+                </Card>
+              </ReactCardFlip>
             </Col>
           ))}
         </Row>

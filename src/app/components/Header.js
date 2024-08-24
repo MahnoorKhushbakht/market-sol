@@ -9,12 +9,12 @@ function Header() {
     <Navbar expand="lg" fixed="static" className="header">
       <Container className='mb-10 sm:mb-0 mt-10 sm:mt-0 sm:ml-10 ml-0'>
         <div>
-        <Navbar.Brand className='text-lg md:text-4xl ' href="#home">NESKO MEDIA</Navbar.Brand>
+        <Navbar.Brand className='text-lg md:text-4xl ' href="/">B Solutions</Navbar.Brand>
         </div>
         <div>
         <Nav className="w-full ">
-        <Navbar.Text href="#services" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">Home</Navbar.Text>
-        <Navbar.Text href="#services" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">About</Navbar.Text>
+        <Navbar.Text href="/" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">Home</Navbar.Text>
+        <Navbar.Text href="/about" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">About</Navbar.Text>
         <Navbar.Text href="#services" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">Services</Navbar.Text>
         <Navbar.Text href="#services" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">Contact</Navbar.Text>
         </Nav>

@@ -24,7 +24,9 @@ export default function RootLayout({ children }) {
           <Header/>
         </header> 
         <main style={{ flex: '1 0 auto',backgroundColor: '#111827' }}>
+
           {children}
+       
         </main> 
         <footer style={{ margintop: 'auto' }}>
          <Footer/>
