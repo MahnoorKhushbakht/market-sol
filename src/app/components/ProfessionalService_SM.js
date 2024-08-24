@@ -6,7 +6,7 @@ export default function ProfessionalService_SM() {
     return (
 <div className='grid grid-cols-1 md:grid-cols-2  w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
   <div className="relative md:mt-0 mt-5">
-    <div className="relative md:w-96 w-80 h-80 md:h-96">
+    <div className="relative md:w-96 w-64 h-64 md:h-96">
       <Image
         src="/images/technoloy-gear.png"
         alt="technology gear"
