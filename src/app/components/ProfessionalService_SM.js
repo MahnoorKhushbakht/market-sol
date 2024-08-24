@@ -4,7 +4,7 @@ import '@/app/css/Gallery.css';
 
 export default function ProfessionalService_SM() {
     return (
-<div className='grid grid-cols-1 md:grid-cols-2 p-5 w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
+<div className='grid grid-cols-1 md:grid-cols-2 md:p-5 sm:p-0 w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
   <div className="relative md:mt-0 mt-5">
     <div className="relative md:w-96 w-80 h-80 md:h-96">
       <Image
