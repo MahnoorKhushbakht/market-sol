@@ -58,7 +58,7 @@ export default function Strengths() {
 
         return (
           <li key={idx}>
-              <ReactCardFlip flipSpeedFrontToBack='2' flipSpeedBackToFront='2' key={idx} isFlipped={flippedState[idx]} flipDirection="horizontal">
+              <ReactCardFlip flipSpeedFrontToBack='2' flipSpeedBackToFront='2' key={idx} isFlipped={flippedState[idx]} flipDirection="vertical">
             <div>
             <Paper 
               data-wow-delay={delay} 

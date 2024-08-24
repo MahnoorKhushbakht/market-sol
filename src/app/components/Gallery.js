@@ -27,8 +27,8 @@ export default function Gallery() {
         },
     ]
     return (
-        <div className="w-full h-auto  bg-slate-600 grid md:grid-rows-1 sm:grid-rows-2 md:grid-cols-2 sm:grid-cols-1 p-20 justify-center">
-            <div className="relative  justify-center sm:pb-80 md:pb-0"> 
+        <div className="h-auto  bg-slate-600 grid md:grid-rows-1 sm:grid-rows-2 md:grid-cols-2 sm:grid-cols-1 p-20 justify-center">
+            <div className="relative  justify-center sm:pb-10 md:pb-0"> 
                 <Image
                     src="/images/technoloy-gear.png"
                     alt="office"
@@ -41,7 +41,7 @@ export default function Gallery() {
                 />
             </div>
 
-            <div className="grid grid-cols-1 mt-96 md:mt-0 md:ml-0 ml-1 md:mr-0 mr-1 h-auto">
+            <div className="grid grid-cols-1 mt-80 md:mt-0 md:ml-0 ml-1 md:mr-0 mr-1 h-auto">
                 <h1 className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-2xl">
                     Professional IT Service
                 </h1>

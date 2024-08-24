@@ -104,7 +104,7 @@ function Details() {
     padding: '6px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
     color: 'white',
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), url(/images/customer_service.jpg)`, 
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), url(/images/office.jpeg)`, 
     backgroundSize: 'cover', 
     backgroundPosition: 'center',
     display: 'flex',
