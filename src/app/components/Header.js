@@ -6,25 +6,49 @@ import '@/app/css/Navbar.css';
 
 function Header() {
   return (
-    <Navbar expand="lg" fixed="static" className="header">
-      <Container className='mb-10 sm:mb-0 mt-10 sm:mt-0 sm:ml-10 ml-0'>
+    <Navbar expand="md" fixed="top" className="header drop-shadow-2xl">
+      <Container className="md:mt-5 mt-2 md:mb-5 mb-2">
         <div>
-        <Navbar.Brand className='text-lg md:text-4xl ' href="/">B Solutions</Navbar.Brand>
+          <Navbar.Brand className="text-base md:text-4xl" href="/">
+            B Solutions
+          </Navbar.Brand>
         </div>
         <div>
-        <Nav className="w-full ">
-        <Navbar.Text href="/" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">Home</Navbar.Text>
-        <Navbar.Text href="/about" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">About</Navbar.Text>
-        <Navbar.Text href="#services" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">Services</Navbar.Text>
-        <Navbar.Text href="#services" className="hidden md:flex ml-8 mr-8 mt-3 mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer">Contact</Navbar.Text>
-        </Nav>
+          <Nav className="w-full">
+            <Navbar.Text
+              href="/"
+              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer"
+            >
+              Home
+            </Navbar.Text>
+            <Navbar.Text
+              href="/about"
+              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer"
+            >
+              About
+            </Navbar.Text>
+            <Navbar.Text
+              href="#services"
+              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer"
+            >
+              Services
+            </Navbar.Text>
+            <Navbar.Text
+              href="#contact"
+              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer"
+            >
+              Contact
+            </Navbar.Text>
+          </Nav>
         </div>
         <div>
-        <Nav>  
-        <Navbar.Text href="#services" className="hidden md:flex ml-auto">
-        <div class="border-4 border-transparent transition transform hover:-translate-y-1 bg-black p-3 mt-2 text-white">34897329847</div>
-        </Navbar.Text>
-        </Nav>
+          <Nav>
+            <Navbar.Text href="#services" className="hidden md:flex ml-auto">
+              <div className="border-4 border-transparent transition transform hover:-translate-y-1 bg-black p-2 md:p-3 mt-1 md:mt-2 text-white text-sm md:text-base">
+                34897329847
+              </div>
+            </Navbar.Text>
+          </Nav>
         </div>
       </Container>
     </Navbar>
