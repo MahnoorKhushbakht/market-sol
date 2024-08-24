@@ -1,9 +1,9 @@
 import Details from "./components/Details";
 import Expertise from "./components/Expertise";
-import Gallery from "./components/Gallery";
 import Service from "./components/Service";
 import Slider from "./components/Slider";
 import Records from "./components/Records";
+import Professional_Services from "./components/Professional_Services";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
 
   </div>
 </div>
-<Gallery/>
+<Professional_Services/>
 <Expertise/>
 <Details/>
 <Records/>
