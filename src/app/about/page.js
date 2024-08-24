@@ -1,5 +1,5 @@
 import Breadcrumbs from "../components/BreadCrumb";
-import Gallery_SM from "../components/Gallery_SM";
+import ProfessionalService_SM from "../components/ProfessionalService_SM";
 import Records from "../components/Records";
 import Strengths from "../components/Strengths";
 export default function About(){
@@ -11,7 +11,7 @@ export default function About(){
         <Breadcrumbs/>
       </div>
       </div>
-      <Gallery_SM/>
+      <ProfessionalService_SM/>
       <div className="grid md:grid-cols-2 grid-cols-1 p-10 gap-2">
         <div>
         <h1 className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-slate-500 text-2xl">

@@ -33,18 +33,18 @@ export default function Professional_Services() {
   ];
 
   return (
-<div className='grid grid-cols-1 md:grid-cols-2 w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
+<div className='grid grid-cols-1 p-5 md:grid-cols-2 w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
   <div className="relative md:mt-0 mt-5">
-    <div className="relative w-96 h-96">
+    <div className="relative md:w-96 w-80 h-80 md:h-96">
       <Image
         src="/images/technoloy-gear.png"
         alt="technology gear"
-        className="w-84 h-84 rounded-full absolute rotating-image bg-transparent"
+        className="rounded-full absolute rotating-image bg-transparent"
       />
       <Image
         src="/images/officeStaff.png"
         alt="office staff"
-        className="w-70 h-70 rounded-full absolute bg-transparent"
+        className="rounded-full absolute bg-transparent"
       />
     </div>
   </div>
