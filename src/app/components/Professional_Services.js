@@ -33,7 +33,7 @@ export default function Professional_Services() {
   ];
 
   return (
-<div className='grid grid-cols-1 md:p-5 sm:p-0 md:grid-cols-2 w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
+<div className='grid grid-cols-1 md:grid-cols-2 w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
   <div className="relative md:mt-0 mt-5">
     <div className="relative md:w-96 w-80 h-80 md:h-96">
       <Image
