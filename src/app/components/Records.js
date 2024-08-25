@@ -61,7 +61,8 @@ export default function Records() {
   return (
     <div className="min-h-svh md:mt-0 mt-10 mb-10 md:mb-0 w-auto grid grid-cols-1 md:grid-cols-4 gap-4 content-center place-content-center">
       {records.map((item, index) => (
-        <div key={index} className="hover:translate-y-1 grid grid-cols-1 items-center justify-items-center">
+        <div data-aos--delay={`${index * 0.2}s`} data-aos="fade-zoom-in"
+        key={index} className="hover:translate-y-1 grid grid-cols-1 items-center justify-items-center">
           <div className="w-32 drop-shadow-2xl h-32 bg-slate-600 shadow-md text-white flex items-center justify-center">
             {item.icon}
           </div>

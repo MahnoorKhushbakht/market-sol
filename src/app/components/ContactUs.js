@@ -21,7 +21,7 @@ export default function Ab() {
   return (
     <Row xs={1} md={3} className="g-2 justify-content-center">
       <Col xs="auto" md="auto" className="d-flex justify-content-center mb-3">
-      <Card className="text-slate-200 contact-card w-64 h-48 bg-slate-600">
+      <Card data-aos="fade-down" className="text-slate-200 contact-card w-64 h-48 bg-slate-600">
           <Card.Body className="d-flex flex-column align-items-center justify-content-center">
             <LocalPhoneIcon
               onClick={handlePhoneClick}
@@ -34,7 +34,7 @@ export default function Ab() {
         </Card>
       </Col>
       <Col xs="auto" md="auto" className="d-flex justify-content-center mb-3">
-      <Card className="text-slate-200 contact-card w-64 h-48 bg-slate-600">
+      <Card data-aos="fade-down" className="text-slate-200 contact-card w-64 h-48 bg-slate-600">
           <Card.Body className="d-flex flex-column align-items-center justify-content-center">
             <WhatsAppIcon
               onClick={handleWhatsappClick}
@@ -47,7 +47,7 @@ export default function Ab() {
         </Card>
       </Col>
       <Col xs="auto" md="auto" className="d-flex justify-content-center mb-3">
-        <Card className="text-slate-200 contact-card w-64 h-48 bg-slate-600">
+        <Card data-aos="fade-down" className="text-slate-200 contact-card w-64 h-48 bg-slate-600">
           <Card.Body className="d-flex flex-column align-items-center justify-content-center">
             <MailOutlineIcon
               onClick={handleMailClick}
