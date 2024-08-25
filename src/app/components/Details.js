@@ -109,7 +109,7 @@ function Details() {
       <Container className="mt-4">
         <Row xs={1} md={3} className="g-4">
           {cardData.map((card, idx) => (
-            <Col key={idx} className="d-flex align-items-stretch" data-aos="fade-up">
+            <Col key={idx} className="d-flex align-items-stretch" data-aos="fade-up-right-up">
               <ReactCardFlip flipSpeedFrontToBack="2" flipSpeedBackToFront="2" key={idx} isFlipped={flippedState[idx]} flipDirection="horizontal">
                 <Card
                   style={{

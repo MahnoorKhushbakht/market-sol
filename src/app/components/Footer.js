@@ -2,7 +2,7 @@ import SocialNav from "./SocialNav";
 
 function Footer() {
   return (
-    <footer data-aos="fade"className="bg-gray-950 text-white py-8 px-2 md:px-0">
+    <footer data-aos="fade-up-right"className="bg-gray-950 text-white py-8 px-2 md:px-0">
       <div className="grid md:grid-cols-4 grid-cols-1 gap-4 ml-4 mr-4 justify-items-center md:justify-items-start text-center md:text-left">
         <div className="leading-relaxed sm:text-center md:text-left sm:mt-4 md:mt-0">
           <ul className="list-none">

@@ -6,7 +6,7 @@ export default function About(){
     return(
       <div className="min-w-svw min-h-svh">
         <div className="w-full al h-80 bg-[url('/images/network_bg.jpg')] bg-cover bg-center grid place-content-center">
-        <h1 data-aos="fade-zoom-in" data-aos-duration="600" className="font-bold md:text-5xl text-3xl mb-3 text-center">About Us</h1>
+        <h1 data-aos="fade-up-right" data-aos-duration="600" className="font-bold md:text-5xl text-3xl mb-3 text-center">About Us</h1>
         <div className="flex justify-center">
         <Breadcrumbs/>
       </div>
@@ -14,7 +14,7 @@ export default function About(){
       <ProfessionalService_SM/>
       <div className="grid md:grid-cols-2 grid-cols-1 p-10 gap-2">
         <div>
-        <h1 data-aos="flip-up" data-aos-duration="600" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-slate-500 text-2xl">
+        <h1 data-aos="fade-up-right" data-aos-duration="600" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-slate-500 text-2xl">
         Why Us
                 </h1>
                 <p data-aos="flip-down" data-aos-duration="600" className="text-base">
@@ -22,7 +22,7 @@ export default function About(){
      </p>
         </div>
         <div>
-        <h1 data-aos="flip-up" data-aos-duration="600" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-slate-500 text-2xl">
+        <h1 data-aos="fade-up-right" data-aos-duration="600" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-slate-500 text-2xl">
         Key Focus Areas
                 </h1>
                 <p data-aos="flip-down" data-aos-duration="600" className="text-base">

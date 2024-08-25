@@ -58,7 +58,7 @@ const Contact = () => {
   };
 
   return (
-    <div data-aos="fade" >
+    <div data-aos="fade-up-right" >
       <Box display="flex" justifyContent="center" alignItems="center" marginTop='50px'  marginBottom='20px'>
         <Card
           variant="filled"
