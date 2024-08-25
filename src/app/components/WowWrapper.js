@@ -6,10 +6,9 @@ import AOS from 'aos';
 export default function AOSWrapper({ children }) {
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      AOS.init({
-        delay: 200,       
+      AOS.init({      
         duration: 300,     
-        easing: 'ease-in-out-cubic',   
+        easing: 'linear',   
         once: false,      
         mirror: false,    
       });
