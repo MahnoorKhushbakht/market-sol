@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import WebIcon from '@mui/icons-material/Web';
-import AdsClickIcon from '@mui/icons-material/AdsClick';
+// import AdsClickIcon from '@mui/icons-material/AdsClick';
 import ScreenSearchDesktopIcon from '@mui/icons-material/ScreenSearchDesktop';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import Typography from '@mui/material/Typography';
@@ -18,11 +18,11 @@ const cardData = [
     text: "To provide great advantage by adding efficiency to business processes by solving problems with our Technology Services.",
     icon: <WebIcon style={{ fontSize: 48, color: '#f8d022' }} />
   },
-  {
-    title: "IT Support Services",
-    text: "Our customers have the right to unlimited calls and on-site support within the scope of the agreement.",
-    icon: <AdsClickIcon style={{ fontSize: 48, color: '#f8d022' }} />
-  },
+  // {
+  //   title: "IT Support Services",
+  //   text: "Our customers have the right to unlimited calls and on-site support within the scope of the agreement.",
+  //   icon: <AdsClickIcon style={{ fontSize: 48, color: '#f8d022' }} />
+  // },
   {
     title: "Desktop and Server Virtualization",
     text: "Our server virtualization, workforce mobility platform enables end users to access their data and applications from any device.",

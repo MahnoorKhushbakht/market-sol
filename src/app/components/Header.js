@@ -6,7 +6,7 @@ import '@/app/css/Navbar.css';
 
 function Header() {
   return (
-    <Navbar expand="md" fixed="top" className="header drop-shadow-2xl">
+    <Navbar expand="md" fixed="static" className="header drop-shadow-2xl">
       <Container className="md:mt-5 mt-2 md:mb-5 mb-2">
         <div>
           <Navbar.Brand className="text-base md:text-4xl" href="/">

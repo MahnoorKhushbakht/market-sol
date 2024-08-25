@@ -1,5 +1,6 @@
 import Breadcrumbs from "../components/BreadCrumb";
 import Contact from "../components/Contact";
+import OurMap from "../components/OurMap";
 
 export default function About(){
     return(
@@ -11,6 +12,7 @@ export default function About(){
       </div>
       </div>
       <Contact/>
+      <OurMap/>
       </div>
     )
 }
