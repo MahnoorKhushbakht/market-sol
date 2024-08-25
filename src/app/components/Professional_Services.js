@@ -49,17 +49,17 @@ export default function Professional_Services() {
     </div>
   </div>
   <div className="grid grid-cols-1 p-5 md:ml-0 ml-1 md:mr-0 mr-1 h-auto">
-                <h1 data-aos="fade-up-right" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-2xl">
+                <h1 data-aos="zoom" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-2xl">
                     Professional IT Service
                 </h1>
-                <p data-aos="fade-up-right"  className="text-lg">
+                <p data-aos="zoom"  className="text-lg">
                     With our reliable service understanding and professional staff, we aim to present the expectations and requirements to the enterprises in the fastest way with technical support service.
                 </p>
 
 
               
                 {service_qualities.map((service_qualities, index) => (
-      <div key={index} data-aos--delay={`${index * 0.2}s`} data-aos="fade-up-right" className="flex md:flex-row flex-col items-center md:items-start mt-0 md:mt-5 w-full gap-2">
+      <div key={index} data-aos--delay={`${index * 0.2}s`} data-aos="zoom" className="flex md:flex-row flex-col items-center md:items-start mt-0 md:mt-5 w-full gap-2">
     <div className="flex justify-center md:justify-start mt-4 md:mt-0">
     {service_qualities.service_icon}
     </div>

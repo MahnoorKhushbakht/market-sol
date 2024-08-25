@@ -59,7 +59,7 @@ export default function Service() {
         return (
           <li key={index}>
             <Paper 
-              data-aos--delay={`${index * 0.4}s`} data-aos="fade-up-right"
+              data-aos--delay={`${index * 0.4}s`} data-aos="zoom"
               className='flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-slate-600 text-gray-200' 
               elevation={3}
             >

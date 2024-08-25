@@ -95,7 +95,7 @@ function Details() {
       </Typography>
       <div className="flex justify-center md:mt-5 mt-10 mb-0 md:mb-10">
         <div 
- data-aos="fade-up-right" className="w-64 bg-slate-800 transition transform hover:-translate-y-1 p-3 text-white cursor-pointer">
+ data-aos="zoom" className="w-64 bg-slate-800 transition transform hover:-translate-y-1 p-3 text-white cursor-pointer">
           Learn more about services
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -109,10 +109,10 @@ function Details() {
           </svg>
         </div>
       </div>
-      <Container  data-aos="fade-up-right" className="mt-4">
+      <Container  data-aos="zoom" className="mt-4">
         <Row xs={1} md={3} className="g-4">
           {cardData.map((card, idx) => (
-            <Col key={idx} className="d-flex align-items-stretch" data-aos="fade-up-right-up">
+            <Col key={idx} className="d-flex align-items-stretch" data-aos="zoom-up">
               <ReactCardFlip flipSpeedFrontToBack="2" flipSpeedBackToFront="2" key={idx} isFlipped={flippedState[idx]} flipDirection="horizontal">
                 <Card
                

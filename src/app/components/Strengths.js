@@ -51,7 +51,7 @@ export default function Strengths() {
     setFlippedState(newFlippedState);
   };
   return (
-    <div data-aos="fade-up-right-up" className='w-full h-90 bg-slate-700 p-8'>
+    <div data-aos="zoom-up" className='w-full h-90 bg-slate-700 p-8'>
     <ul className='grid md:grid-cols-4 grid-cols-1 p-8 gap-10 justify-between'>
       {strength.map((strengthItem, idx) => {
         const delay = `${idx * 0.2}s`; 
