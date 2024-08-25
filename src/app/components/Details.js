@@ -78,6 +78,7 @@ function Details() {
         fontWeight="bold"
         mb={2}
         fontFamily="'Rubik', sans-serif"
+        data-aos="fade-zoom-in"
       >
         Our Services and Solutions
       </Typography>
@@ -88,11 +89,13 @@ function Details() {
         fontStyle="italic"
         mb={2}
         fontFamily="'Rubik', sans-serif"
+        data-aos="fade-zoom-in"
       >
         Your IT Infrastructure is Entrusted to Us.
       </Typography>
       <div className="flex justify-center md:mt-5 mt-10 mb-0 md:mb-10">
-        <div className="w-64 bg-slate-800 transition transform hover:-translate-y-1 p-3 text-white cursor-pointer">
+        <div 
+ data-aos="fade-up-right" className="w-64 bg-slate-800 transition transform hover:-translate-y-1 p-3 text-white cursor-pointer">
           Learn more about services
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -106,12 +109,13 @@ function Details() {
           </svg>
         </div>
       </div>
-      <Container className="mt-4">
+      <Container  data-aos="fade-up-right" className="mt-4">
         <Row xs={1} md={3} className="g-4">
           {cardData.map((card, idx) => (
             <Col key={idx} className="d-flex align-items-stretch" data-aos="fade-up-right-up">
               <ReactCardFlip flipSpeedFrontToBack="2" flipSpeedBackToFront="2" key={idx} isFlipped={flippedState[idx]} flipDirection="horizontal">
                 <Card
+               
                   style={{
                     padding: '6px',
                     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
@@ -136,6 +140,7 @@ function Details() {
                   </Card.Body>
                 </Card>
                 <Card
+               
                   style={{
                     position: 'relative',
                     padding: '6px',

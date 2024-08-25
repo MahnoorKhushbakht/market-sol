@@ -59,7 +59,7 @@ export default function Professional_Services() {
 
               
                 {service_qualities.map((service_qualities, index) => (
-      <div key={index} data-aos--delay={`${index * 0.2}s`} data-aos="fade-up-right-zoom-in" className="flex md:flex-row flex-col items-center md:items-start mt-0 md:mt-5 w-full gap-2">
+      <div key={index} data-aos--delay={`${index * 0.2}s`} data-aos="fade-up-right" className="flex md:flex-row flex-col items-center md:items-start mt-0 md:mt-5 w-full gap-2">
     <div className="flex justify-center md:justify-start mt-4 md:mt-0">
     {service_qualities.service_icon}
     </div>

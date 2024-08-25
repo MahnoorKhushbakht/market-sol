@@ -55,13 +55,12 @@ export default function Service() {
   return (
     <ul className='grid grid-cols-1 bg-fixed md:grid-cols-6 gap-4 p-8'>
       {service.map((serviceItem, index) => {
-        const delay = `${index * 0.2}s`; 
 
         return (
           <li key={index}>
             <Paper 
-              data-wow-delay={delay} 
-              className='wow animate__animated animate__bounceIn flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-slate-600 text-gray-200' 
+              data-aos--delay={`${index * 0.4}s`} data-aos="fade-up-right"
+              className='flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-slate-600 text-gray-200' 
               elevation={3}
             >
               <div className='mb-3'>
