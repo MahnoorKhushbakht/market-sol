@@ -8,7 +8,7 @@ export default function AOSWrapper({ children }) {
     if (typeof window !== 'undefined') {
       AOS.init({      
         duration: 300,     
-        easing: 'linear',   
+        easing: 'ease-in-sine',   
         once: false,      
         mirror: false,    
       });
