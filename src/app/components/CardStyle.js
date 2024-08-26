@@ -6,6 +6,7 @@ function CardStyle({ children }) {
   return (
     <Card
       variant="outlined"
+      data-aos='fade-down'
       sx={{
         flexGrow: 1,
         backgroundColor: 'transparent',

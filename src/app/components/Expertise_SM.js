@@ -33,7 +33,7 @@ export default function Expertise_SM() {
       spacing={2}
     >
       {expertise.map((item, index) => (
-        <CardStyle key={index}>
+        <CardStyle key={index} data-aos-delay={`${index * 0.2}s`} data-aos="fade-up">
           <Typography variant="h6" style={{ color: 'black', marginBottom: "10px"}}>
             {item.name}
           </Typography>

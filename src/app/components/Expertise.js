@@ -23,7 +23,7 @@ export default function Expertise() {
 
     return (
         <>
-            <div className='hidden md:block'>
+            <div data-aos='fade-down' className='hidden md:block'>
                 <div className="bg-slate-900 grid grid-cols-[auto_1fr]">
                     <table className="w-52 ">
                         <tbody>
@@ -60,7 +60,7 @@ export default function Expertise() {
                     </div>
                 </div>
             </div>
-            <div className="md:hidden">
+            <div data-aos='fade-down' className="md:hidden">
                 <Expertise_SM />
             </div>
         </>

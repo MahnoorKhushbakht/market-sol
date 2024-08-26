@@ -25,7 +25,7 @@ export default function SocialNav() {
   };
 
   return (
-    <Box sx={{ '& > :not(style)': { m: 2 } }}>
+    <Box data-aos="fade-up" sx={{ '& > :not(style)': { m: 2 } }}>
       <Fab
         size="small"
         sx={{

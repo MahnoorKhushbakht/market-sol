@@ -9,7 +9,7 @@ import 'swiper/css/autoplay';
 
 export default function Slider() {
   return (
-    <div className='flex relative content-center justify-center'>
+    <div data-aos="fade"className='flex relative content-center justify-center'>
       <div className='h-full w-full p-0'>
         <Swiper
           modules={[EffectCube, Navigation, Autoplay]} 

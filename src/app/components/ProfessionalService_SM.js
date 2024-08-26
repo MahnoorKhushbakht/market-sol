@@ -20,16 +20,16 @@ export default function ProfessionalService_SM() {
     </div>
   </div>
   <div className="grid grid-cols-1 p-5 md:ml-0 ml-1 md:mr-0 mr-1 h-auto">
-  <h1 data-aos="flip-left"  className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-slate-500 text-2xl">
+  <h1 data-aos="fade-up"  className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-slate-500 text-2xl">
                     Professional IT Service
                 </h1>
-                <p data-aos="flip-left"  className="text-lg">
+                <p data-aos="fade-down"  className="text-lg">
                 Beryl Technologies Ltd : futuristic solutions - an it company providing it solution and services for businesses throughout the world. We are focused on empowering the future of innovation by revolutionizing the industry through cutting edge advancements and groundbreaking solutions through team of dedicated it engineers across the globe.
                 </p>
-                <h1 data-aos="flip-right" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-slate-500 text-2xl">
+                <h1 data-aos="fade-up" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-slate-500 text-2xl">
                 Mission Vision
                 </h1>
-                <p data-aos="flip-right" className="text-lg">
+                <p data-aos="fade-up" className="text-lg">
                 Our vision is to be the catalyst for transformative change in the tech industry, driving innovation and creating a better future. We are committed to our mission of empowering businesses and individuals through cutting-edge technologies that enhance efficiency, productivity, and sustainability. By pushing boundaries and embracing challenges, we strive to unlock the full potential of technology in shaping a brighter tomorrow.
                 </p>
 </div>

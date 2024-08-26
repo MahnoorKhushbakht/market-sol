@@ -7,7 +7,7 @@ export default function MyMap() {
   const color = `hsl(${hue % 360}, 39%, 70%)`
 
   return (
-    <Map height={300} defaultCenter={[40.719074,-74.050552]} defaultZoom={12}>
+    <Map data-aos='fade' height={300} defaultCenter={[40.719074,-74.050552]} defaultZoom={12}>
       <ZoomControl />
       <Marker 
         width={50}

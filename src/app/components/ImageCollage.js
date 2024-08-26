@@ -4,7 +4,7 @@ import '@/app/css/Gallery.css'
 
 export default function ImageCollage() {
     return (
-        <div className="relative">
+        <div data-aos='fade' className="relative">
             <Image
                 src="/images/technoloy-gear.png"
                 alt="office"
