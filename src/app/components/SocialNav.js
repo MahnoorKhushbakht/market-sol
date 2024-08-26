@@ -27,6 +27,7 @@ export default function SocialNav() {
   return (
     <Box data-aos="fade-up" sx={{ '& > :not(style)': { m: 2 } }}>
       <Fab
+       data-aos="fade-down"
         size="small"
         sx={{
           width: {  sm: '32px' ,md:'40px'},
@@ -40,6 +41,7 @@ export default function SocialNav() {
         <FacebookIcon />
       </Fab>
       <Fab
+       data-aos="fade-down"
         size="small"
         sx={{
           width: {  sm: '32px' ,md:'40px'},
@@ -53,6 +55,7 @@ export default function SocialNav() {
         <InstagramIcon />
       </Fab>
       <Fab
+       data-aos="fade-down"
         size="small"
         sx={{
           width: {  sm: '32px' ,md:'40px'},
@@ -66,6 +69,7 @@ export default function SocialNav() {
         <LinkedInIcon />
       </Fab>
       <Fab
+       data-aos="fade-down"
         size="small"
         sx={{
           width: {  sm: '32px' ,md:'40px'},

@@ -34,7 +34,7 @@ export default function Expertise_SM() {
     >
       {expertise.map((item, index) => (
         <CardStyle key={index} data-aos-delay={`${index * 0.2}s`} data-aos="fade-up">
-          <Typography variant="h6" style={{ color: 'black', marginBottom: "10px"}}>
+          <Typography variant="h6" style={{ color: 'white', marginBottom: "10px"}}>
             {item.name}
           </Typography>
           <Image
@@ -42,7 +42,7 @@ export default function Expertise_SM() {
             alt={item.name}
             className="w-full h-auto rounded-md"
           />
-          <Typography variant="body1" style={{ color: 'black'}}>
+          <Typography variant="body1" style={{ color: 'white'}}>
             {item.paragraph}
           </Typography>
         </CardStyle>
