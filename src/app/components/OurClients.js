@@ -24,7 +24,17 @@ export default function OurClient(){
           },
           { 
            client_logo:"/images/client1.png",
-          }
+          },
+          { 
+            client_logo:"/images/client1.png",
+           },
+           { 
+            client_logo:"/images/client1.png",
+           },
+           { 
+            client_logo:"/images/client1.png",
+           }
+
         ]
     return(
         <div className='min-h-svh w-full bg-slate-600'>
@@ -35,9 +45,9 @@ export default function OurClient(){
         <h1 data-aos="fade-down" className="font-extrabold text-2xl md:text-3xl">Our Customers Who Make Us</h1>
         <p data-aos="fade-down" className="font-semibold text-lg md:text-2xl text-center">We work day and night for our customers and speed up their business processes.</p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 place-items-center place-content-center gap-4 p-6 mb-5">
+        <div className="grid grid-cols-2 md:grid-cols-5 place-items-center place-content-center gap-4 p-6 mb-5">
         {clients.map((clients,index)=>(
-        <div data-aos-delay={`${index * 0.2}s`} data-aos="fade-down" className="  hover:shadow-gray-400 w-32 h-32 bg-slate-900 border border-slate-500 shadow-2xl" key={index}>
+        <div data-aos-delay={`${index * 0.2}s`} data-aos="fade-down" className="w-32 h-32 hvr-pulse bg-slate-900 border border-slate-500 hvr-float " key={index}>
         <Image
             src={clients.client_logo}
             alt='our clients'

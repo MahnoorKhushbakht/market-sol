@@ -17,25 +17,25 @@ function Header() {
           <Nav className="w-full">
             <Navbar.Text
               href="/"
-              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer"
+              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hvr-underline-from-left decoration-4 cursor-pointer"
             >
               Home
             </Navbar.Text>
             <Navbar.Text
               href="/about"
-              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer"
+              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hvr-underline-from-left decoration-4 cursor-pointer"
             >
               About
             </Navbar.Text>
             <Navbar.Text
               href="#services"
-              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer"
+              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hvr-underline-from-left decoration-4 cursor-pointer"
             >
               Services
             </Navbar.Text>
             <Navbar.Text
               href="#contact"
-              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hover:underline underline-offset-4 decoration-4 cursor-pointer"
+              className="hidden md:flex text-sm md:text-base ml-2 md:ml-8 mr-2 md:mr-8 mt-1 md:mt-3 mb-1 md:mb-3 hvr-underline-from-left decoration-4 cursor-pointer"
             >
               Contact
             </Navbar.Text>

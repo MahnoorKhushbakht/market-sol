@@ -1,6 +1,3 @@
-'use client';
-import React, { useState } from 'react';
-import ReactCardFlip from 'react-card-flip';
 import WebIcon from '@mui/icons-material/Web';
 import AdsClickIcon from '@mui/icons-material/AdsClick';
 import ScreenSearchDesktopIcon from '@mui/icons-material/ScreenSearchDesktop';
@@ -38,43 +35,38 @@ const cardData = [
       icon: <LocalGroceryStoreIcon style={{ fontSize: 48, color: '#f1f5f9' }} />
     }
   ];
-
-  
-function Solutions() {
-    const [flippedState, setFlippedState] = useState(cardData.map(() => false));
-  
-    const handleFlip = (idx) => {
-      const newFlippedState = flippedState.map((isFlipped, i) => (i === idx ? !isFlipped : isFlipped));
-      setFlippedState(newFlippedState);
-    };
-  
-    return (
-<SolutionLayout>
-        <div className="grid grid-cols-1 md:grid-cols-3 place-items-center place-content-center gap-4 p-6 mb-5">
+export default function Solutions_SM() {
+    return(
+        <SolutionLayout>
+        <div className="grid grid-cols-1 place-items-center place-content-center gap-4 p-6 mb-5">
         {cardData.map((card, idx) => (
         <div key={idx} className="d-flex align-items-stretch" data-aos="fade-up">
-        <ReactCardFlip flipSpeedFrontToBack="2" flipSpeedBackToFront="2" key={idx} isFlipped={flippedState[idx]} flipDirection="horizontal">
-         <div 
-        onMouseEnter={() => handleFlip(idx)}
-        onMouseLeave={() => handleFlip(idx)}
-         className='p-6 shadow-md text-white bg-slate-800 flex flex-col align-middle justify-center text-center  w-96 h-64 shadow-slate-500/40'>
+<table className='table-auto hvr-rotate'>
+    <tbody>
+        <tr className='border-2 border-white'>
+            <td>
+            <div className='p-6 shadow-md text-white bg-transparent flex flex-col align-middle justify-center text-center  w-96 h-64 shadow-slate-500/40'>
         <div className='mb-3'>{card.icon}</div>
         <h1 className='font-bold mb-3'>{card.title}</h1>
         <p>{card.text}</p>
          </div>
-         <div className="relative p-6 shadow-md text-white bg-cover flex flex-col shadow-slate-500/40 w-96 h-64 align-middle justify-center text-center">
+            </td>
+        </tr>
+        <tr className='border-2 border-white'>
+            <td>
+            <div className="relative p-6 shadow-md text-white bg-cover flex flex-col shadow-slate-500/40 w-96 h-64 align-middle justify-center text-center">
   <div className="absolute inset-0 bg-[url('/images/customer_service.jpg')] bg-cover opacity-50 z-0"></div>
   <div className="relative z-10">
     <h1>{card.text}</h1>
   </div>
 </div>
-
-         </ReactCardFlip>
-         </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+        </div>
         ))}
         </div>
-        </SolutionLayout>  
+        </SolutionLayout>
     )
 }
-
-export default Solutions;

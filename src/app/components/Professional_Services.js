@@ -35,7 +35,7 @@ export default function Professional_Services() {
   return (
 <div className='grid grid-cols-1 md:grid-cols-2 w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
   <div data-aos="fade-up" className="relative md:mt-0 mt-5">
-    <div className="relative md:w-96 w-64 h-64 md:h-96">
+    <div className="relative md:w-96 w-64 h-64 md:h-96 ">
       <Image
         src="/images/technoloy-gear.png"
         alt="technology gear"
@@ -44,7 +44,7 @@ export default function Professional_Services() {
       <Image
         src="/images/officeStaff.png"
         alt="office staff"
-        className="rounded-full absolute bg-transparent"
+        className="rounded-full hvr-grow fade-up absolute bg-transparent"
       />
     </div>
   </div>

@@ -5,6 +5,7 @@ import Slider from "./components/Slider";
 import Records from "./components/Records";
 import Professional_Services from "./components/Professional_Services";
 import OurClient from "./components/OurClients";
+import Solutions_SM from "./components/Solutions_SM";
 
 export default function Home() {
   return (
@@ -24,7 +25,8 @@ export default function Home() {
 </div>
 <Professional_Services/>
 <Expertise/>
-<Solutions/>
+<div className="md:hidden"><Solutions_SM/></div>
+<div className="hidden md:block"><Solutions/></div>
 <Records/>
 <OurClient/>
     </main>

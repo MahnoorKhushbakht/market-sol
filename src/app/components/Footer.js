@@ -2,11 +2,11 @@ import SocialNav from "./SocialNav";
 
 function Footer() {
   return (
-    <footer data-aos="fade"className="bg-gray-950 text-white py-8 px-2 md:px-0">
-      <div className="grid md:grid-cols-4 grid-cols-1 gap-4 ml-4 mr-4 justify-items-center md:justify-items-start text-center md:text-left">
-        <div className="leading-relaxed sm:text-center md:text-left sm:mt-4 md:mt-0">
+    <footer className="bg-gray-950 text-white py-8 px-2 md:px-0">
+      <div  data-aos="fade" className="grid md:grid-cols-4 grid-cols-1 gap-4 ml-4 mr-4 justify-items-center md:justify-items-start text-center md:text-left">
+        <div  className="leading-relaxed sm:text-center md:text-left sm:mt-4 md:mt-0">
           <ul className="list-none">
-            <div  data-aos="fade" className="flex flex-row gap-2 justify-center md:justify-start">
+            <div className="flex flex-row gap-2 justify-center md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -28,7 +28,7 @@ function Footer() {
               </svg>
               <li>London,UK</li>
             </div>
-            <div  data-aos="fade" className="flex flex-row gap-2 justify-center md:justify-start">
+            <div   className="flex flex-row gap-2 justify-center md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -45,7 +45,7 @@ function Footer() {
               </svg>
               <li>+44 7706 666275</li>
             </div>
-            <div  data-aos="fade" className="flex flex-row gap-2 justify-center md:justify-start">
+            <div   className="flex flex-row gap-2 justify-center md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -65,7 +65,7 @@ function Footer() {
             <SocialNav />
           </ul>
         </div>
-        <div  data-aos="fade" className="sm:text-center md:text-left">
+        <div   className="sm:text-center md:text-left">
           <ul className="md:list-disc list-none">
             <h2 className="text-lg font-semibold mb-2">Quick Links</h2>
             <li >Home</li>
@@ -75,7 +75,7 @@ function Footer() {
           </ul>
         </div>
         <div className="sm:text-center md:text-left">
-          <ul  data-aos="fade" className="md:list-disc list-none">
+          <ul   className="md:list-disc list-none">
             <h2 className="text-lg font-semibold mb-2">Engineering Resource</h2>
             <li>Break Fix Engineers</li>
             <li>Server Engineers</li>
@@ -84,7 +84,7 @@ function Footer() {
             <li>Desktop/Side Engineers</li>
           </ul>
         </div>
-        <div  data-aos="fade" className="sm:text-center md:text-left">
+        <div   className="sm:text-center md:text-left">
           <ul className="md:list-disc list-none">
             <h2 className="text-lg font-semibold mb-2">Professional Services</h2>
             <li>IMAC</li>
@@ -96,7 +96,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <p  data-aos="fade" className="text-white text-center text-sm mt-4">
+      <p   className="text-white text-center text-sm mt-4">
         © 2023 Beryl Technologies Ltd - All rights Reserved.
       </p>
     </footer>

@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       <meta charSet='utf-8' />
             <script type="text/javascript" dangerouslySetInnerHTML={{ __html: process.env.noflash}} />
       </head> */}
+      
       <body  >
       <WowWrapper>
         <header>
