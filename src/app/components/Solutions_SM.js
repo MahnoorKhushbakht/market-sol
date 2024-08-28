@@ -40,7 +40,7 @@ export default function Solutions_SM() {
         <SolutionLayout>
         <div className="grid grid-cols-1 place-items-center place-content-center gap-4 p-6 mb-5">
         {cardData.map((card, idx) => (
-        <div key={idx} className="d-flex align-items-stretch" data-aos="fade-up">
+        <div key={idx} className="d-flex align-items-stretch p-10" data-aos="fade-up">
 <table className='table-auto hvr-rotate w-auto h-auto'>
     <tbody>
         <tr className='border-2 border-white'>
