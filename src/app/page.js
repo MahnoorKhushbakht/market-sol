@@ -6,6 +6,8 @@ import Records from "./components/Records";
 import Professional_Services from "./components/Professional_Services";
 import OurClient from "./components/OurClients";
 import Solutions_SM from "./components/Solutions_SM";
+import SpecialPacks from "./components/SpecialPacks";
+import SpecialPacks_SM from "./components/SpecialPacks_SM";
 
 export default function Home() {
   return (
@@ -29,6 +31,8 @@ export default function Home() {
 <div className="hidden md:block"><Solutions/></div>
 <Records/>
 <OurClient/>
+<div className="md:hidden"><SpecialPacks_SM/></div>
+<div className="hidden md:block"><SpecialPacks/></div>
     </main>
   );
 }
