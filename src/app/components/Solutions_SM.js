@@ -40,12 +40,12 @@ export default function Solutions_SM() {
         <SolutionLayout>
         <div className="grid grid-cols-1 place-items-center place-content-center gap-4 p-6 mb-5">
         {cardData.map((card, idx) => (
-        <div key={idx} className="d-flex align-items-stretch p-10" data-aos="fade-up">
-<table className='table-auto hvr-rotate w-auto h-auto'>
+        <div key={idx} className="d-flex align-items-stretch " data-aos="fade-up">
+<table className='table-auto hvr-rotate '>
     <tbody>
-        <tr className='border-2 border-white'>
+        <tr className='border-2 border-white '>
             <td>
-            <div className='p-6 shadow-md text-white bg-transparent flex flex-col align-middle justify-center text-center  w-96 h-64 shadow-slate-500/40'>
+            <div className='p-2 shadow-md text-white bg-transparent flex flex-col align-middle justify-center text-center  w-80 h-64 shadow-slate-500/40'>
         <div className='mb-3'>{card.icon}</div>
         <h1 className='font-bold mb-3'>{card.title}</h1>
         <p>{card.text}</p>
@@ -54,7 +54,7 @@ export default function Solutions_SM() {
         </tr>
         <tr className='border-2 border-white'>
             <td>
-            <div className="relative p-6 shadow-md text-white bg-cover flex flex-col shadow-slate-500/40 w-96 h-64 align-middle justify-center text-center">
+            <div className="relative p-2 shadow-md text-white bg-cover flex flex-col w-80 h-64 shadow-slate-500/40 align-middle justify-center text-center">
   <div className="absolute inset-0 bg-[url('/images/customer_service.jpg')] bg-cover opacity-50 z-0"></div>
   <div className="relative z-10">
     <h1>{card.text}</h1>
