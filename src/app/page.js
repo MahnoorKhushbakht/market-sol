@@ -11,7 +11,7 @@ import SpecialPacks_SM from "./components/SpecialPacks_SM";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center h-auto w-full bg-slate-700">
+    <main className="flex flex-col justify-center h-auto w-full bg-slate-900">
      <Slider/>
      <Service/>
      <div className="flex flex-row justify-between items-center p-8">

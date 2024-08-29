@@ -12,9 +12,9 @@ export default function About(){
       </div>
       </div>
       <ProfessionalService_SM/>
-      <div className="grid md:grid-cols-2 grid-cols-1 p-10 gap-2">
+      <div className="grid md:grid-cols-2 grid-cols-1 p-10 gap-2 bg-blue-950">
         <div>
-        <h1 data-aos="fade-down" data-aos-duration="600" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-slate-500 text-2xl">
+        <h1 data-aos="fade-down" data-aos-duration="600" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-200 to-slate-500 text-2xl">
         Why Us
                 </h1>
                 <p data-aos="flip-down" data-aos-duration="600" className="text-base">
@@ -22,7 +22,7 @@ export default function About(){
      </p>
         </div>
         <div>
-        <h1 data-aos="fade-down" data-aos-duration="600" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-slate-500 text-2xl">
+        <h1 data-aos="fade-down" data-aos-duration="600" className="font-bold sm:text-lg md:text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-200 to-slate-500 text-2xl">
         Key Focus Areas
                 </h1>
                 <p data-aos="flip-down" data-aos-duration="600" className="text-base">

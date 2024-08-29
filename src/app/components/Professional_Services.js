@@ -33,7 +33,7 @@ export default function Professional_Services() {
   ];
 
   return (
-<div className='grid grid-cols-1 md:grid-cols-2 w-full min-h-screen bg-gray-900 place-items-center place-content-center'>
+<div className='grid grid-cols-1 md:grid-cols-2 w-full min-h-screen bg-blue-950 place-items-center place-content-center'>
   <div data-aos="fade-up" className="relative md:mt-0 mt-5">
     <div className="relative md:w-96 w-64 h-64 md:h-96 ">
       <Image
@@ -77,7 +77,7 @@ export default function Professional_Services() {
  
                ))}
     <div className='flex justify-center md:mt-5 mt-10 mb-0 md:mb-10'>
-               <div className="w-auto h-auto bg-gray-800 hover:shadow-lg p-3 text-gray-300 cursor-pointer">
+               <div className="w-auto h-auto bg-slate-900 hover:shadow-lg p-3 text-gray-300 cursor-pointer">
     Learn more about services 
     {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />

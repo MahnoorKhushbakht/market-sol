@@ -51,7 +51,7 @@ export default function Strengths() {
     setFlippedState(newFlippedState);
   };
   return (
-    <div className='w-full h-90 bg-slate-700 p-8'>
+    <div className='w-full h-90 bg-blue-950  p-8'>
     <ul className='grid md:grid-cols-4 grid-cols-1 p-8 gap-10 justify-between'>
       {strength.map((strengthItem, idx) => {
         const delay = `${idx * 0.2}s`; 
@@ -62,7 +62,7 @@ export default function Strengths() {
             <div>
             <Paper 
               data-aos-delay={delay} data-aos="fade-up" 
-              className='flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-slate-700 text-gray-200' 
+              className='flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-slate-900 text-gray-200' 
               elevation={3}
               onMouseEnter={() => handleFlip(idx)}
               onMouseLeave={() => handleFlip(idx)}
@@ -78,7 +78,7 @@ export default function Strengths() {
             <div>
             <Paper 
               data-wow-delay={delay} 
-              className='wow animate__animated animate__bounceIn flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-slate-700 text-gray-200' 
+              className='wow animate__animated animate__bounceIn flex-col drop-shadow-sm md:w-48 md:h-64 w-full h-64 leading-relaxed text-center flex items-center justify-center p-2 bg-slate-900 text-gray-200' 
               elevation={3}
             >
               <div className='mb-3 font-semibold'>

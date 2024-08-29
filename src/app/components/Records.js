@@ -63,7 +63,7 @@ export default function Records() {
       {records.map((item, index) => (
         <div data-aos-delay={`${index * 0.2}s`} data-aos="fade-up"
         key={index} className="hover:translate-y-1 grid grid-cols-1 items-center justify-items-center">
-          <div className="w-32 drop-shadow-2xl h-32 bg-slate-600 shadow-md text-white flex items-center justify-center">
+          <div className="w-32 drop-shadow-2xl h-32 bg-blue-950 shadow-md text-white flex items-center justify-center">
             {item.icon}
           </div>
           <div className="mt-2 md:text-2xl text-lg uppercase text-center font-semibold">

@@ -87,7 +87,7 @@ function Details() {
       </Typography>
       <div className="flex justify-center md:mt-5 mt-10 mb-0 md:mb-10">
         <div 
- data-aos="fade-up" className="w-auto h-auto shadow-lg hover:shadow-xl bg-slate-800 p-3 text-white cursor-pointer">
+ data-aos="fade-up" className="w-auto h-auto shadow-lg hover:shadow-xl bg-blue-950 p-3 text-white cursor-pointer">
           Learn more about services
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -43,7 +43,7 @@ function SpecialPacks_SM() {
                             className='w-80 h-full shadow-md rounded-lg overflow-hidden bg-white cursor-pointer'
                             style={{ minHeight: '30rem' }} 
                         >
-                            <div className="relative p-4 flex flex-col w-full h-64 bg-cover bg-slate-600 align-middle justify-center text-center">
+                            <div className="relative p-4 flex flex-col w-full h-64 bg-cover bg-slate-900 align-middle justify-center text-center">
                                 <Image src={contentItem.cardImg} alt="Service" className="absolute inset-0 object-cover w-full h-full opacity-60" />
                                 <div className="relative z-10">
                                     <h1 className='font-bold text-white text-lg'>{contentItem.title}</h1>
@@ -58,7 +58,7 @@ function SpecialPacks_SM() {
                                 ))}
                             </ListGroup>
                             <div className='p-4 text-center'>
-                                <a className='w-auto text-white hover:bg-slate-500 hover:text-white transition-colors hvr-grow rounded-md p-3 bg-slate-600 inline-block' href="#">
+                                <a className='w-auto text-white hover:bg-slate-500 hover:text-white transition-colors hvr-grow rounded-md p-3 bg-slate-900 inline-block' href="#">
                                     Contact Us
                                 </a>
                             </div>

@@ -40,7 +40,7 @@ function SpecialPacks() {
     };
 
     return (
-        <div className='min-h-svh w-full'>
+        <div className='min-h-svh w-full bg-slate-900'>
             <div className="grid grid-cols-1 place-items-center place-content-center mt-5">
                 <h1 data-aos="fade-down" className="font-extrabold text-2xl md:text-3xl">Our Services and Solutions</h1>
                 <p data-aos="fade-down" className="font-semibold text-lg md:text-2xl text-center">Your IT Infrastructure is Entrusted to Us</p>
@@ -62,7 +62,7 @@ function SpecialPacks() {
                             onMouseLeave={() => handleFlip(idx)}
                             style={{ minHeight: '30rem' }}  
                         >
-                            <div className="relative p-4 flex flex-col w-full h-64 bg-cover bg-slate-600 align-middle justify-center text-center">
+                            <div className="relative p-4 flex flex-col w-full h-64 bg-cover bg-slate-900 align-middle justify-center text-center">
                             <Image src={contentItem.cardImg} alt="Service" className="absolute inset-0 object-cover w-full h-full opacity-60" />
                                 <div className="relative z-10">
                                     <h1 className='font-bold text-white text-lg'>{contentItem.title}</h1>
@@ -86,7 +86,7 @@ function SpecialPacks() {
                   
                         <div
                             key={idx}
-                            className='w-80 h-full shadow-md rounded-lg overflow-hidden bg-slate-600 cursor-pointer flex items-center justify-center'
+                            className='w-80 h-full shadow-md rounded-lg overflow-hidden bg-blue-950 cursor-pointer flex items-center justify-center'
                             onMouseEnter={() => handleFlip(idx)}
                             onMouseLeave={() => handleFlip(idx)}
                             style={{ minHeight: '30rem' }} 

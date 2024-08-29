@@ -55,7 +55,7 @@ export default function Service() {
       {service.map((serviceItem, index) => (
             <div key={index}
               data-aos-delay={`${index * 0.4}s`} data-aos="fade-down"
-              className='bg-gray-900 hvr-wobble-horizontal flex-col h-64 leading-relaxed text-center flex items-center justify-center p-2 w-auto' 
+              className='bg-blue-950 hvr-wobble-horizontal flex-col h-64 leading-relaxed text-center flex items-center justify-center p-2 w-auto' 
             >
               <div className='mb-3'>
                 {serviceItem.serviceIcon}

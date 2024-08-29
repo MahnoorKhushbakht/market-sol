@@ -34,7 +34,7 @@ export default function Slider() {
           }}
         >
           <SwiperSlide>
-            <div className="h-screen flex justify-center content-center md:p-64 sm:p-16 p-8 w-full bg-cover bg-[url('/images/tech.jpg')] bg-no-repeat">
+            <div className="h-screen flex justify-center content-center md:p-64 sm:p-16 p-8 w-full bg-cover bg-[url('/images/slide1.png')] bg-no-repeat">
               <div className='flex flex-col justify-center items-center md:p-64 p-0 w-full'>
                 <h1 className="antialiased md:subpixel-antialiased md:text-5xl text-2xl w-full text-center font-bold leading-normal text-white">
                   For Your Business Custom IT Solutions
@@ -49,7 +49,7 @@ export default function Slider() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="h-screen bg-cover flex justify-center content-center md:p-64 sm:p-16 p-8 w-full bg-[url('/images/network_nodes.jpg')] bg-no-repeat">
+            <div className="h-screen bg-cover flex justify-center content-center md:p-64 sm:p-16 p-8 w-full bg-[url('/images/slide2.png')] bg-no-repeat">
               <div className='flex flex-col justify-center items-center md:p-64 p-0 w-full'>
                 <h1 className="antialiased md:subpixel-antialiased md:text-5xl text-2xl w-full text-center font-bold leading-normal text-white">
                   We add value to your Business
@@ -57,7 +57,7 @@ export default function Slider() {
                 <p className="antialiased md:subpixel-antialiased md:text-xl text-lg w-full text-center text-white mt-4">
                   We meet all the IT infrastructure needs of your Business.
                 </p>
-                <div className="border-4 border-transparent transition transform hover:-translate-y-1 bg-black p-3 mt-2 text-white">
+                <div className="border-4 shadow-xl border-transparent transition transform hover:-translate-y-1 bg-blue-950 p-3 mt-2 text-white">
                   Learn more
                 </div>
               </div>

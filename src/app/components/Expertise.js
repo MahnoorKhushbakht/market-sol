@@ -23,12 +23,12 @@ export default function Expertise() {
 
     return (
         <>
-            <div data-aos='fade-down' className='hidden md:block'>
-                <div className="bg-slate-900 grid grid-cols-[auto_1fr]">
-                    <table className="w-52 ">
+            <div data-aos='fade-down' className='hidden md:block  h-full bg-slate-900'>
+                <div className="bg-slate-900 grid grid-cols-[auto_1fr] mt-5 mb-5">
+                    <table className="w-64 ">
                         <tbody>
                             <tr 
-                                className={`hover:bg-slate-700 hover:text-white cursor-pointer ${selectedItem === 'Innovation' ? 'bg-slate-700 text-white' : ''}`} 
+                                className={`hover:bg-blue-950 hover:text-white cursor-pointer ${selectedItem === 'Innovation' ? 'bg-blue-950 text-white' : ''}`} 
                                 onClick={() => setSelectedItem('Innovation')}
                             >
                                 <td className="p-2 flex items-center">
@@ -36,31 +36,31 @@ export default function Expertise() {
                                 </td>
                             </tr>
                             <tr 
-                                className={`hover:bg-slate-700 hover:text-white cursor-pointer ${selectedItem === 'Strategic_Partnership' ? 'bg-slate-700 text-white' : ''}`} 
+                                className={`hover:bg-blue-950 hover:text-white cursor-pointer ${selectedItem === 'Strategic_Partnership' ? 'bg-blue-950 text-white' : ''}`} 
                                 onClick={() => setSelectedItem('Strategic_Partnership')}
                             >
                                 <td className="p-2">Strategic Partnerships</td>
                             </tr>
                             <tr 
-                                className={`hover:bg-slate-700 hover:text-white cursor-pointer ${selectedItem === 'Sustainable_Innovation' ? 'bg-slate-700 text-white' : ''}`} 
+                                className={`hover:bg-blue-950 hover:text-white cursor-pointer ${selectedItem === 'Sustainable_Innovation' ? 'bg-blue-950 text-white' : ''}`} 
                                 onClick={() => setSelectedItem('Sustainable_Innovation')}
                             >
                                 <td className="p-2">Sustainable Innovation</td>
                             </tr>
                             <tr 
-                                className={`hover:bg-slate-700 hover:text-white cursor-pointer ${selectedItem === 'Customer_Centric_Approach' ? 'bg-slate-700 text-white' : ''}`} 
+                                className={`hover:bg-blue-950 hover:text-white cursor-pointer ${selectedItem === 'Customer_Centric_Approach' ? 'bg-blue-950 text-white' : ''}`} 
                                 onClick={() => setSelectedItem('Customer_Centric_Approach')}
                             >
                                 <td className="p-2">Customer-Centric Approach</td>
                             </tr>
                         </tbody>
                     </table>
-                    <div className="flex-grow bg-gray-800 rounded-md p-8">
+                    <div className="flex-grow bg-blue-950 ">
                         {renderContent()}
                     </div>
                 </div>
             </div>
-            <div data-aos='fade-down' className="md:hidden">
+            <div data-aos='fade-down' className="md:hidden bg-slate-900">
                 <Expertise_SM />
             </div>
         </>

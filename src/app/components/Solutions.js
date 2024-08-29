@@ -57,7 +57,7 @@ function Solutions() {
          <div 
         onMouseEnter={() => handleFlip(idx)}
         onMouseLeave={() => handleFlip(idx)}
-         className='p-6 shadow-md text-white bg-slate-800 flex flex-col align-middle justify-center text-center  w-96 h-64 shadow-slate-500/40'>
+         className='p-6 shadow-xl text-white bg-slate-900 flex flex-col align-middle justify-center text-center  w-96 h-64'>
         <div className='mb-3'>{card.icon}</div>
         <h1 className='font-bold mb-3'>{card.title}</h1>
         <p>{card.text}</p>

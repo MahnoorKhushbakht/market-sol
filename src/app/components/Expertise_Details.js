@@ -7,7 +7,7 @@ function Customer_Centric_Approach() {
                 <Image
                     src="/images/customer_service.jpg"
                     alt="customer service"
-                    className="w-full h-auto rounded-md"
+                    className="w-full h-auto rounded-xl"
                 />
             </div>
             <div className="text-white flex m-2">
