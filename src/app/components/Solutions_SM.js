@@ -1,3 +1,4 @@
+'use client'
 import WebIcon from '@mui/icons-material/Web';
 import AdsClickIcon from '@mui/icons-material/AdsClick';
 import ScreenSearchDesktopIcon from '@mui/icons-material/ScreenSearchDesktop';
@@ -36,6 +37,7 @@ const cardData = [
     }
   ];
 export default function Solutions_SM() {
+  const urlPath = window.location.pathname;
     return(
         <SolutionLayout>
         <div className="grid grid-cols-1 place-items-center place-content-center gap-4 p-6 mb-5">
@@ -54,12 +56,20 @@ export default function Solutions_SM() {
         </tr>
         <tr className='border-2 border-white'>
             <td>
+         
+            {urlPath === '/services' ? (
+                                <div className="bg-slate-900 flex items-center text-center justify-center w-80 h-64 p-10">
+                                <h1>{card.text}</h1>
+                              </div>
+
+              ) : (
             <div className="relative p-2 shadow-md text-white bg-cover flex flex-col w-80 h-64 shadow-slate-500/40 align-middle justify-center text-center">
   <div className="absolute inset-0 bg-[url('/images/customer_service.jpg')] bg-cover opacity-50 z-0"></div>
   <div className="relative z-10">
     <h1>{card.text}</h1>
   </div>
 </div>
+              )}
             </td>
         </tr>
     </tbody>
